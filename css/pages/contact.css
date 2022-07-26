@@ -1,0 +1,184 @@
+/* Contact */
+
+.contact {
+    font-family: 'Italiana', serif;
+    color: #fff;
+}
+
+.contact .container-fix-sub {
+    padding: 50px 0;
+}
+
+.contact h1 {
+    font-size: 6vw;
+    color:#fff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 7vw;
+}
+
+.contact .box {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.contact .box p {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.contact .box p:nth-child(2) {
+    color: #f2652e;
+}
+
+/* Contact Title Effect */
+.contact .title>p{ font-size: 2vw; font-weight:500; color:#222; letter-spacing:5px; cursor:pointer; }
+.contact .title>p span{ transition: 0.5s; }
+.contact .title>p:hover span:nth-child(1){ margin-right: 5px; }
+.contact .title>p:hover span:nth-child(1)::after{ content:"'"; }
+.contact .title>p:hover span:nth-child(2){ margin-left: 20px; }
+.contact .title>p:hover span{ color:#f2652e; }
+
+/* Contact > Form */
+.contact .form {
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    background:rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 25px 45px rgba(255, 255, 255, 0.1);
+    border:1px solid rgba(255, 255, 255, 0.25);
+    border-right:1px solid rgba(255, 255, 255, 0.1);
+    border-bottom:1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter:blur(25px);
+    margin: auto;
+}
+
+.contact .form h2 {
+    font-size: 3vw;
+}
+
+.contact .form::before{content:""; position: absolute; top:0; left:-40%; width:100%; height:100%; background:rgba(255, 255, 255, 0.05);pointer-events: none; transform:skew(-15deg);}
+
+.contact .row{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.contact .row .col{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+}
+
+.contact .row .col .inputbox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color:#fff;
+    margin-right: 15px;
+}
+
+.contact .row .col .inputbox input, .contact .row .col .inputbox textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+    resize: none;
+}
+
+.contact .row .col .inputbox .text {
+    position: absolute;
+    top: 0;
+    left:0;
+    line-height: 40px;
+    font-size: 1vw;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.contact .row .col .inputbox input:focus + .text,.contact .row .col .inputbox input:valid + .text,.contact .row .col .inputbox textarea:focus + .text,.contact .row .col .inputbox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.contact .row .col .inputbox .line{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background:#fff;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.contact .row .col .inputbox input:focus ~ .line,.contact .row .col .inputbox input:valid ~ .line {
+    height: 100%;
+}
+
+.contact .row .col .inputbox.textarea{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.contact .row .col .inputbox textarea:focus ~ .line,.contact .row .col .inputbox textarea:valid ~ .line {
+    height: 100%;
+}
+
+.contact .submit-btn {
+    background: none;
+    border: 1px solid #fff;
+    width: 7vw;
+    height: 2.5vw;
+    color: #fff;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+}
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1570px){
+
+    nav {
+        display: none;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (max-width: 991px) {
+
+    .contact .row {
+        flex-direction: column;
+    }
+
+    .contact .submit-btn {
+        width: 15vw;
+        height: 6vw;
+    }
+
+
+}
+

@@ -1,0 +1,31 @@
+/* Scroll Progress */
+
+#progress {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: grid;
+    place-items: center;
+    z-index: 10;
+}
+
+#progress-value {
+    display: block;
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+    background:#fff !important;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    background: url(../../images/scroll-icon.png) !important;
+    background-position: center !important;;
+    background-size: cover !important;;
+    color: #fff;
+    z-index: 60;
+}

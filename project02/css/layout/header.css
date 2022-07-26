@@ -1,0 +1,22 @@
+/* header */
+
+header {
+    display: flex;
+    justify-content: center;
+    /*max-width: 1600px;*/
+    padding: 18px 0px;
+    width: 100%;
+    animation:fadeInRight 1s both 1s;
+}
+
+header>nav ul {
+    display: flex;
+    padding: 0;
+}
+
+header>nav ul li a {
+    padding: 0 15px;
+    font-size: 15px;
+    color: #1e1e1e;
+    font-family: 'Brandon Grotesque Regular', sans-serif;
+} 

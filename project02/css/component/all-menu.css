@@ -1,0 +1,104 @@
+/* all menu */
+
+.all-menu-btn {
+    position: absolute;
+    top: 44px;
+    right: 57px;
+    z-index: 30;
+    display: flex;
+    width: 40px;
+    height: 20px; 
+    animation:fadeInRight 1s both 1s;
+}
+
+.all-menu-btn span {
+    width: 40px;
+    height: 1px;
+    background:#000;
+    display: flex;
+    position: absolute;
+    transition: .3s;
+}
+
+.all-menu-btn span:nth-child(1) {
+    top: 34%;
+}
+
+.all-menu-btn.is-active span {
+    background: #000;
+
+}
+
+.all-menu-btn.is-active span:nth-child(1){
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.all-menu-btn.is-active span:nth-child(2){
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+.all-menu {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.all-menu.is-active {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.all-menu .menu-list {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.all-menu .menu-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.all-menu .menu-link {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    display: inline-flex;
+    font-weight: bold;
+    color: #E2766A; 
+    text-transform: uppercase;
+}
+
+.all-menu .menu-link::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 8px;
+    display: inline-flex;
+    background: #4F769F ;
+    transition: .3s;
+}
+
+.all-menu .menu-link:hover:after {
+    width: 100%;
+}

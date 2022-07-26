@@ -1,0 +1,252 @@
+/* About Intro */
+.wrap h2 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: 'Italiana', serif;
+    color: #fff;
+}
+
+.about-intro {
+    animation: fadeInRight 1s both 1s;
+}
+
+.about-intro .left {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-intro .right {
+    width: 40%;
+}
+
+.about-intro .right img {
+    width: 100%;
+}
+
+.about-intro h2 {
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* About-Me */
+.about-me {
+    animation: fadeInLeft 2s both 2s;
+}
+
+.about-me .left {
+    width: 30%;
+}
+
+.about-me .left img {
+    width: 100%;
+}
+
+.about-me .right {
+    width: 45%;
+    padding-left: 5%;
+    color: #fff;
+}
+
+.about-me .right .desc {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.7vw;
+    line-height: 27px;
+    padding: 20px 0;
+}
+
+/* Experience */
+.experience {
+    display: flex;
+}
+
+.experience.top p {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.experience div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.experience>div img {
+    width: 10%;
+    opacity: 0;
+}
+
+.experience .quote {
+    font-size: 0.8vw;
+    line-height: 20px;
+    color: #fff;
+}
+
+/* Career */
+.career {
+    animation: fadeInLeft 4s both 4s;
+}
+
+.career .accordion-item {
+    border-bottom: 1px solid #fff;
+    padding: 45px 0;
+    color: #fff;
+    font-size: 1.2vw;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.career i.fas { color: #fff; font-size: 16px; padding-right: 15px;}
+
+.career .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career .desc {
+    padding: 15px;
+    display: none;
+    font-size: 0.8vw;
+}
+
+.accordion-item.active .title i.fas {
+    color: #fff;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.accordion-item.active .desc {
+    display: block;
+    transition: 0.3s all;
+    background: #fff;
+    color: #000;
+    margin: 15px 0;
+}
+
+
+/* Contact */
+.contact {
+    color: #fff;
+    animation: fadeInLeft 5s both 5s;
+}
+
+.contact .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 50px;
+}
+
+.contact .info  .circle {
+    width: 9.8160vw;
+    height: 9.8160vw;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+    text-align: center;
+    font-size: 1vw;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .info  .circle:hover {
+    background: #f2652e;
+    color:#000;
+    transition: all 1s;
+}
+
+.contact .info  ul {
+    font-size: 0.8vw;
+}
+
+.contact .info  ul .m-tit {
+    opacity: 0.8;
+    font-size: 1vw;
+    padding-bottom: 10px;
+}
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1570px){
+
+    .about-intro .right {
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-me .left {
+        width: 100%;
+    }
+
+    .about-me .left img {
+        width: 60%;
+    }
+
+    .about-me .right {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .experience div {
+        flex-wrap: wrap;
+    }
+
+    .contact .info {
+        padding: 10px;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (max-width: 991px) {
+
+    .about-me .left img {
+        width: 100%;
+    }
+
+    .about-me .right .desc {
+        line-height: 14px !important;
+    }
+
+    .experience .quote {
+        line-height: 15px;
+    }
+    
+
+    .about-me .right {
+        margin-top: 20px;
+    }
+
+    .experience div {
+        gap: 15px;
+    } 
+
+    .career .accordion-item {
+        padding: 20px 0;
+    }
+
+    .contact .info {
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 25px;
+        align-items: baseline;
+        flex-direction: column;
+    }
+
+    .contact .info ul {
+        padding: 10px 0;
+    }
+    
+}
+

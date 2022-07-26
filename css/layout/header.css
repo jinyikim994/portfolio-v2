@@ -1,0 +1,70 @@
+/* header */
+
+header {
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+    padding: 43px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+}
+
+header .logo {
+    font-size: 40px;
+    font-family: 'Cormorant', serif;
+}
+
+header .navbar-list {
+    display: flex;
+}
+
+header .navbar-list li {
+    margin-right: 40px;
+    font-size: 0.9vw;
+    position: relative;
+}
+
+header .navbar-list .active a::before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    background:#f2652e;
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    top: -1px;
+    right: -6px; 
+    transition: opacity .2s ease-out;
+}
+
+header .navbar-list li a::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 0;
+    height: 1px;
+    right: 0;
+    background-color: #fff;
+    transition: all .5s;
+} 
+
+header .navbar-list li:hover a::after {
+    left: 0;
+    width: 100%;
+} 
+
+/************** 반응형 **************/
+
+/* 모바일 */
+@media screen and (max-width: 991px) {
+    
+    nav{
+        display: none;
+    }
+
+}

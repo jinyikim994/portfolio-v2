@@ -1,0 +1,29 @@
+/* reset */
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+    background: #000;
+}
+
+html{
+    font-size:10px;
+}
+
+.cf:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+

@@ -1,0 +1,107 @@
+/* Container */
+.wrap {
+    width: 100%;
+    margin: auto;
+}
+
+/* Main Container */
+.container-fix {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+/* Sub Container */
+.container-fix-sub {
+    max-width: 1630px;
+    width:100%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+/* About Page */
+.about-intro .container-fix-sub {
+    display: flex;
+    align-items: center;
+}
+
+.about-me .container-fix-sub {
+    display: flex;
+}
+
+.experience .container-fix-sub {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Career Page */
+.career .container-fix-sub {
+    max-width: 1630px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1570px){
+
+    /* Main Container */
+    .container-fix {
+        width: 80%;
+    }
+
+    /* Sub Container */
+    .container-fix-sub {
+        width: 80%;
+        padding: 30px 0;
+    }
+
+    /* About Page */
+    .about-intro .container-fix-sub {
+        flex-direction: column;
+    }
+
+    .experience .container-fix-sub {
+        width: 80%;
+    }
+
+    /* Career Page */
+    .career .container-fix-sub {
+        width: 80% !important;
+        padding: 0 !important;
+    }
+
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 991px) {
+
+    /* Main Container */
+    .container-fix {
+        width: 90%;
+    }
+
+    /* Sub Container */
+    .container-fix-sub {
+        padding: 30px 0;
+    }
+
+     /* About Page */
+    .about-me .container-fix-sub {
+        flex-direction: column;
+    }
+
+    /* Career Page */
+    .career .container-fix-sub {
+        width: 90% !important;
+        padding: 0 !important;
+    }
+
+}
+
+

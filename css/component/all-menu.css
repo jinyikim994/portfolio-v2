@@ -1,0 +1,119 @@
+/* All Menu Btn */
+
+.all-menu-btn {
+    width: 40px;
+    height: 20px;
+    z-index: 30;
+    animation:fadeInRight 1s both 1s;
+}
+
+.all-menu-btn span {
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background:#fff;
+    transition: .3s;
+}
+
+.all-menu-btn span:nth-child(1) {
+    top: 34%;
+}
+
+.all-menu-btn span:nth-child(2) {
+    top: 0;
+}
+
+
+.all-menu-btn.is-active span {
+    background: #fff;
+
+}
+
+.all-menu-btn.is-active span:nth-child(1){
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.all-menu-btn.is-active span:nth-child(2){
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+/* All Menu */
+.all-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    background: #000; 
+    pointer-events: none;   
+}
+
+.all-menu.is-active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.all-menu .menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.all-menu .menu-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.all-menu a {
+    position: relative;
+    font-size: 5.2083vw;
+    font-weight: bold;
+    color: #FFFF; 
+    text-transform: uppercase;
+}
+
+.all-menu a:after {
+    content: '';
+    width: 0;
+    height: 5px;
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    background-color: #fff;
+    transition: all .5s;
+    opacity:0;
+} 
+
+.all-menu a:hover{
+    padding-left:10px;
+    transition:all .6s;
+    opacity: 1;
+} 
+
+.all-menu a:hover:after {
+    width: 100%;
+    left: 0;
+    opacity: 1;
+}
+
+/* all menu animation */
+.all-menu.is-active .menu-item1{ animation: fadeInLeft 1s both .2s; } 
+.all-menu.is-active .menu-item2{ animation: fadeInLeft 1s both .4s; } 
+.all-menu.is-active .menu-item3{ animation: fadeInLeft 1s both .6s; } 
+.all-menu.is-active .menu-item4{ animation: fadeInLeft 1s both .8s; } 
+.all-menu.is-active .menu-item5{ animation: fadeInLeft 1s both  1s; } 
+
+
+

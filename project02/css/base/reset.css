@@ -1,0 +1,33 @@
+/* reset */
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+h1{
+    margin: 0;
+}
+
+p{
+    margin:0;
+}
+
+/* swiper */
+.swiper-button-next:after{
+    display: none;
+}
+.swiper-button-prev:after{
+    display: none;
+}
