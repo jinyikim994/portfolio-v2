@@ -211,7 +211,7 @@
 @media screen and (max-width: 991px) {
 
     .wrap h2 {
-        font-size: 6vw;
+        font-size: 30px;
     }
 
     .about-intro .right {
@@ -223,13 +223,13 @@
     }
 
     .about-me .right .desc {
-        font-size: 3vw;
+        font-size: 16px;
         line-height: 20px !important;
     }
 
     .experience .quote {
         line-height: 19px;
-        font-size: 3.5vw;
+        font-size: 16px;
     }
 
     .experience>div img {
@@ -261,6 +261,7 @@
     .contact .info .circle {
         width: 16vw;
         height: 16vw;
+        font-size: 12px;
     }
 
     .contact .info ul {
@@ -268,15 +269,19 @@
     }
 
     .contact .info ul li {
-        font-size: 3vw;
+        font-size: 12px;
     }
 
     .contact .info ul .m-tit {
-        font-size: 4vw;
+        font-size: 14px;
     }
 
     .career .title {
-        font-size: 3vw;
+        font-size: 16px;
+    }
+
+    .accordion-item.active .desc {
+        font-size: 15px;
     }
     
 }
