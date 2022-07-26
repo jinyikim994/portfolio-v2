@@ -67,4 +67,8 @@ header .navbar-list li:hover a::after {
         display: none;
     }
 
+    header a {
+        font-size: 7vw;
+    }
+
 }

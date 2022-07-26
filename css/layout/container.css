@@ -56,17 +56,13 @@
 
     /* Sub Container */
     .container-fix-sub {
-        width: 80%;
+        width: 90%;
         padding: 30px 0;
     }
 
     /* About Page */
     .about-intro .container-fix-sub {
         flex-direction: column;
-    }
-
-    .experience .container-fix-sub {
-        width: 80%;
     }
 
     /* Career Page */
@@ -88,12 +84,17 @@
 
     /* Sub Container */
     .container-fix-sub {
+        width: 90%;
         padding: 30px 0;
     }
 
      /* About Page */
     .about-me .container-fix-sub {
         flex-direction: column;
+    }
+
+    .experience .container-fix-sub {
+        width: 90% !important;
     }
 
     /* Career Page */

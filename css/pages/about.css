@@ -210,16 +210,30 @@
 /* 모바일 */
 @media screen and (max-width: 991px) {
 
+    .wrap h2 {
+        font-size: 6vw;
+    }
+
+    .about-intro .right {
+        width: 100%;
+    }
+
     .about-me .left img {
         width: 100%;
     }
 
     .about-me .right .desc {
-        line-height: 14px !important;
+        font-size: 3vw;
+        line-height: 20px !important;
     }
 
     .experience .quote {
-        line-height: 15px;
+        line-height: 19px;
+        font-size: 3.5vw;
+    }
+
+    .experience>div img {
+        width: 20%;
     }
     
 
@@ -244,8 +258,25 @@
         flex-direction: column;
     }
 
+    .contact .info .circle {
+        width: 16vw;
+        height: 16vw;
+    }
+
     .contact .info ul {
         padding: 10px 0;
+    }
+
+    .contact .info ul li {
+        font-size: 3vw;
+    }
+
+    .contact .info ul .m-tit {
+        font-size: 4vw;
+    }
+
+    .career .title {
+        font-size: 3vw;
     }
     
 }
