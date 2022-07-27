@@ -173,6 +173,7 @@
     .contact .submit-btn {
         width: 15vw;
         height: 6vw;
+        font-size: 1vw;
     }
 
     .contact h2 {
@@ -200,9 +201,7 @@
     }
 
     .contact .row .col .inputbox .text {
-        font-size: 3vw;
+        font-size: 4vw;
     }
-
-
 }
 
