@@ -148,12 +148,12 @@
     }
 
     .career .title h1 {
-        font-size: 12vw;
+        font-size: 14vw;
         color:rgba(255, 255, 255, 0.1)
     }
     
     .career .title p {
-        font-size: 5.7vw;
+        font-size: 6.7vw;
         position: absolute;
         top: 59%;
         left: 16%;
@@ -163,8 +163,11 @@
         font-size: 3vw;
     }
 
-    .career .text-box h5,h6 {
-        font-size: 10vw;
+    .career .box:hover .text-box h5 {
+        font-size: 6vw;
+    }
+    .career .box:hover .text-box h6 {
+        font-size: 4vw;
     }
     
 }
