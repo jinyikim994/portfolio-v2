@@ -1,4 +1,11 @@
 /* About Intro */
+.wrap h1 {
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-family: 'Italiana', serif;
+    color: #fff;
+}
+
 .wrap h2 {
     font-size: 3vw;
     text-transform: uppercase;
@@ -189,7 +196,7 @@
     }
 
     .about-me .left img {
-        width: 60%;
+        width: 80%;
     }
 
     .about-me .right {
@@ -211,11 +218,12 @@
 @media screen and (max-width: 991px) {
 
     .wrap h2 {
-        font-size: 30px;
+        font-size: 6vw;
     }
 
     .about-intro .right {
         width: 100%;
+        margin: 0;
     }
 
     .about-me .left img {
@@ -223,13 +231,13 @@
     }
 
     .about-me .right .desc {
-        font-size: 16px;
+        font-size: 2.6vw;
         line-height: 20px !important;
     }
 
     .experience .quote {
         line-height: 19px;
-        font-size: 16px;
+        font-size: 2.8vw;
     }
 
     .experience>div img {
@@ -269,19 +277,19 @@
     }
 
     .contact .info ul li {
-        font-size: 12px;
+        font-size: 2.8vw;
     }
 
     .contact .info ul .m-tit {
-        font-size: 14px;
+        font-size: 3.2vw;
     }
 
     .career .title {
-        font-size: 16px;
+        font-size: 3vw;
     }
 
     .accordion-item.active .desc {
-        font-size: 15px;
+        font-size: 2vw;
     }
     
 }

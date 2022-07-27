@@ -60,13 +60,12 @@
     }
 
     /* About Page */
-    .about-intro .container-fix-sub {
-        flex-direction: column;
+    .experience .container-fix-sub {
+        width: 90%;
     }
-
     /* Career Page */
     .career .container-fix-sub {
-        width: 80% !important;
+        width: 90% !important;
         padding: 0 !important;
     }
 
