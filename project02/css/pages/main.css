@@ -581,6 +581,9 @@
 
     .promotion .slider-thumb {
         background-size: cover;
+        width: 40vw;
+        height: 40vw;
+        margin: 0;
     }
 
     .live-wrap .text-box h2 {
@@ -591,6 +594,15 @@
 
 /* 모바일 */
 @media screen and (max-width: 991px) {
+
+    .promotion .hoverme {
+        width: 6vw;
+        height: 6vw;
+        left: 0;
+        top: 10px;
+        background-size: cover;
+        background-position: center;
+    }
 
     .live-wrap .swiper-slide {
         flex-direction: column;
