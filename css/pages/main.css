@@ -270,8 +270,4 @@
     .main-slide .slick-prev,.main-slide .slick-next {
         display: none !important;
     }
-
-    .main-slide .slick-dots { 
-        width: 90%;
-    }
 }

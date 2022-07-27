@@ -78,7 +78,7 @@
 
 .all-menu a {
     position: relative;
-    font-size: 10vw;
+    font-size: 5.2083vw;
     font-weight: bold;
     color: #FFFF; 
     text-transform: uppercase;
@@ -115,5 +115,14 @@
 .all-menu.is-active .menu-item4{ animation: fadeInLeft 1s both .8s; } 
 .all-menu.is-active .menu-item5{ animation: fadeInLeft 1s both  1s; } 
 
+/************** 반응형 **************/
 
+/* 모바일 */
+@media screen and (max-width: 991px) { 
+
+    .all-menu a {
+        font-size: 10vw;
+    }
+
+}
 
