@@ -127,17 +127,37 @@
     }
 
     .career .img-box {
-        height: 26vw !important;
+        height: 50vw !important;
     }
 
     .career .content .box {
-        width: 47.9% !important;
+        width: 100% !important;
     }
 
+    .career .tab-wrap .tabs {
+        flex-wrap: wrap;
+    }
     .career .tab-wrap .tabs li {
         padding: 10px 17px !important;
         margin: 0 !important;
     }
+
+    .career .title h1 {
+        font-size: 12vw;
+        color:rgba(255, 255, 255, 0.1)
+    }
+    
+    .career .title p {
+        font-size: 5.7vw;
+        position: absolute;
+        top: 59%;
+        left: 16%;
+    }
+
+    .career .tab-wrap .tabs li {
+        font-size: 3vw;
+    }
+    
 }
 
 

@@ -63,10 +63,9 @@ header .navbar-list li:hover a::after {
 /* PC */
 @media (max-width:1570px){
 
-   
 }
 
-/* 모바일 */
+/* MOBILE */
 @media screen and (max-width: 991px) {
     
     nav{
