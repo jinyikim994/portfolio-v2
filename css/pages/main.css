@@ -266,9 +266,4 @@
     .main-slide .slick-prev,.main-slide .slick-next {
         display: none !important;
     }
-
-    @keyframes slick-circle{
-        0%{left:0;}
-        100%{left:93%;}
-    }  
 }
