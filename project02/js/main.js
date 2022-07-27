@@ -24,8 +24,22 @@ var swiper3 = new Swiper(".product-slider .swiper-container", {
     navigation: {
         nextEl: ".product-slider .swiper-button-next1",
         prevEl: ".product-slider .swiper-button-prev1"
+    },
+
+    breakpoints: {
+        // 화면의 넓이가 320px 이상일 때
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 50
+        },
+        // 화면의 넓이가 640px 이상일 때
+        640: {
+            slidesPerView: 2,
+            spaceBetween: 40
+        }
     }
-    });
+
+});
 
 
 //Live Slider

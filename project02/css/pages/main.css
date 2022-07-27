@@ -6,6 +6,16 @@
     color: #E2766A;
 }
 
+.desc {
+    text-align: center;
+    font-size: 1vw;
+    color: #988D8B;
+}
+
+.live-wrap .desc {
+    text-align: left;
+}
+
 /* H-Comment */
 
 .h-comment {
@@ -287,12 +297,6 @@
     background:#f7f5f5;
 }
 
-.experences p {
-    text-align: center;
-    font-size: 0.9vw;
-    color: #988D8B;
-}
-
 .experences .swiper-container {
     position:relative;
 }
@@ -366,11 +370,6 @@
     padding-bottom: 10px;;
     text-align: left;
 }
-
-.live-wrap .text-box p {
-    font-size: 1vw; 
-    color: #988D8B;
-} 
 
 .live-wrap .swiper-pagination {
     position: relative;
@@ -575,10 +574,6 @@
         display: none;
     }
 
-    .container-fix {
-        width: 80%;
-    }
-
     .promotion .slider-thumb {
         background-size: cover;
         width: 40vw;
@@ -594,6 +589,20 @@
 
 /* 모바일 */
 @media screen and (max-width: 991px) {
+
+    /* common */
+    .main-title {
+        font-size: 8vw !important;
+    }
+
+    .desc {
+        font-size: 3vw;
+    }
+
+    .promotion span {
+        font-size: 14vw;
+    }
+
 
     .promotion .hoverme {
         width: 6vw;
@@ -618,9 +627,10 @@
     }
 
     .best-seller .lank {
-        width: 2.8vw;
-        height: 2.8vw;
-        line-height: 2.8vw;
+        width: 4.8vw;
+        height: 4.8vw;
+        line-height: 4.8vw;
+        font-size: 3vw;
     }
 
     .experences h1 {
@@ -631,12 +641,26 @@
         font-size: 4vw;
     }
 
-    .best-seller h2,.best-review h2 {
+    .best-review .tab-title li {
         font-size: 4vw;
     }
 
-    .best-review .tab-title li {
+    .best-seller .info .grade {
+        color: #988D8B;
         font-size: 3vw;
     }
+    
+    .best-seller .info .discount {
+        font-size: 3vw;
+    }
+
+    .best-seller .info .won {
+        font-size: 3vw;
+    }
+
+    .best-seller .info .title {
+        font-size: 2.7vw;
+    }
+
 
 }
