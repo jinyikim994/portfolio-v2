@@ -170,13 +170,37 @@
 /* 모바일 */
 @media screen and (max-width: 991px) {
 
-    .contact .row {
-        flex-direction: column;
-    }
-
     .contact .submit-btn {
         width: 15vw;
-        height: 6vw;
+        height: 7vw;
+    }
+
+    .contact h2 {
+        font-size: 10vw;
+    }
+
+    .contact .title>p {
+        font-size: 4vw;
+    }
+
+    .contact h1 {
+        font-size: 8vw;
+    }
+
+    .contact .box {
+        padding: 100px 0;
+    }
+
+    .contact .box p {
+        font-size: 4vw;
+    }
+
+    .contact .form h2 {
+        font-size: 5vw;
+    }
+
+    .contact .row .col .inputbox .text {
+        font-size: 3vw;
     }
 
 
