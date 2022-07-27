@@ -245,7 +245,33 @@
         margin-top:20px;
     }
 
+    .main-slide .main-paging>span {
+        font-size: 17px;
+    }
+
+    .main-wrapper .main-slide .left-text {
+        font-size: 4vw;
+        left: 15px;
+    }
+
+    .main-slide .right-text {
+        font-size: 6vw;
+    }
+
+    .main-slide .project-btn .project-circle {
+        width: 18vw;
+        height: 18vw;
+    }
+
+    .main-slide .project-btn {
+        display: none;
+    }
+
     .main-slide .slick-prev,.main-slide .slick-next {
         display: none !important;
+    }
+
+    .main-slide .slick-dots { 
+        width: 90%;
     }
 }
