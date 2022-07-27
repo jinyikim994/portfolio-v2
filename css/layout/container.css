@@ -93,6 +93,7 @@
 
     .experience .container-fix-sub {
         width: 90% !important;
+        padding-top: 0;
     }
 
     /* Career Page */
