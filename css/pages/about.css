@@ -6,6 +6,13 @@
     color: #fff;
 }
 
+.about .visual-title {
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-family: 'Italiana', serif;
+    color: #fff;
+}
+
 .about .desc {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 0.7vw;
@@ -53,13 +60,6 @@
     color: #fff;
 }
 
-.about .introduction .right .desc {
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 0.7vw;
-    line-height: 27px;
-    padding: 20px 0;
-}
-
 /* Experience */
 .about .experience {
     display: flex;
@@ -79,12 +79,6 @@
 .about .experience .image-wrap img {
     width: 10%;
     opacity: 0;
-}
-
-.about .experience .quote {
-    font-size: 0.8vw;
-    line-height: 20px;
-    color: #fff;
 }
 
 /* Career */
@@ -167,7 +161,7 @@
     font-size: 0.8vw;
 }
 
-.about .contact .info  ul .m-tit {
+.about .contact .info  ul li:first-child {
     opacity: 0.8;
     font-size: 1vw;
     padding-bottom: 10px;
@@ -209,6 +203,7 @@
     .about .contact .info {
         padding: 10px;
     }
+
 }
 
 /* 모바일 */
@@ -235,8 +230,12 @@
         font-size: 2.8vw;
     }
 
+    .about .experience .image-wrap {
+        gap: 15px;
+    }
+
     .about .experience .image-wrap img {
-        width: 20%;
+        width: 30%;
     }
     
 
@@ -285,8 +284,9 @@
         font-size: 2.8vw;
     }
 
-    .about .contact .info ul .m-tit {
+    .about .contact .info  ul li:first-child {
         font-size: 3.2vw;
     }    
+
 }
 
