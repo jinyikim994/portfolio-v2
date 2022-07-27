@@ -7,10 +7,11 @@
 }
 
 .about .visual-title {
-    font-size: 2vw;
+    font-size: 4vw;
     text-transform: uppercase;
     font-family: 'Italiana', serif;
     color: #fff;
+    text-align: center;
 }
 
 .about .desc {
@@ -217,6 +218,11 @@
     .about .desc {
         font-size: 2.8vw;
         line-height: 20px !important;
+    }
+
+    /* Visual */
+    .about .visual-title {
+        font-size: 2vw;        
     }
 
     /* Introduction */
