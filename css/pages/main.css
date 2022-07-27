@@ -246,16 +246,16 @@
     }
 
     .main-slide .main-paging>span {
-        font-size: 17px;
+        font-size: 6vw;
     }
 
     .main-wrapper .main-slide .left-text {
-        font-size: 4vw;
+        font-size: 3vw;
         left: 15px;
     }
 
     .main-slide .right-text {
-        font-size: 6vw;
+        font-size: 7vw;
     }
 
     .main-slide .project-btn .project-circle {
