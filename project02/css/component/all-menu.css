@@ -1,14 +1,15 @@
 /* all menu */
 
 .all-menu-btn {
-    position: absolute;
-    top: 44px;
-    right: 57px;
-    z-index: 30;
-    display: flex;
     width: 40px;
     height: 20px; 
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    z-index: 30;
+    display: flex;
     animation:fadeInRight 1s both 1s;
+    z-index: 60;
 }
 
 .all-menu-btn span {
@@ -41,14 +42,13 @@
 
 .all-menu {
     width: 100%;
+    height:100vh;
     background: #fff;
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
     z-index: 10;
     transition: .3s;
     opacity: 0;
@@ -59,6 +59,7 @@
 .all-menu.is-active {
     opacity: 1;
     visibility: visible;
+    z-index: 50;
 
 }
 
@@ -77,7 +78,7 @@
 }
 
 .all-menu .menu-link {
-    font-size: 100px;
+    font-size: 6vw;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
     position: relative;

@@ -1,8 +1,28 @@
 /* Container */
 
 .container-fix {
-    width: 1600px; 
-    height: auto;
-    margin:0 auto;
+    max-width: 1660px;
+    width:100%;
+    margin: 0 auto;
     overflow: hidden;
+    padding: 130px 0;
+}
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1570px){ 
+    
+    .container-fix {
+        padding: 60px 0;
+    }
+
+}
+
+
+/* 모바일 */
+@media screen and (max-width: 991px) {
+
+
 }

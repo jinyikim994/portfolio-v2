@@ -3,9 +3,15 @@
 header {
     display: flex;
     justify-content: center;
-    /*max-width: 1600px;*/
-    padding: 18px 0px;
+    max-width: 1630px;
+    padding: 30px 15px;
     width: 100%;
+    position:relative;
+    z-index:22;
+    margin:0 auto;
+}
+
+header>nav{
     animation:fadeInRight 1s both 1s;
 }
 
@@ -16,7 +22,41 @@ header>nav ul {
 
 header>nav ul li a {
     padding: 0 15px;
-    font-size: 15px;
+    font-size: 0.9vw;
     color: #1e1e1e;
     font-family: 'Brandon Grotesque Regular', sans-serif;
 } 
+
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1320px){
+
+    header{
+        justify-content: flex-start;
+    }
+
+    header>nav{
+        padding-left:340px;
+    }
+
+}
+
+@media (max-width:1570px){
+
+    header {
+        padding: 30px 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
+
+/* 모바일 */
+@media screen and (max-width: 991px) {
+
+}

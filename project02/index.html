@@ -9,16 +9,13 @@
 	<link rel="stylesheet" href="css/common.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/pages/main.css"> 
-	<!-- swiper -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+	<!-- cdn -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.css"/>
-	<!-- static js -->  
-	<script src="js/common.js"></script>
-	<!--script-->
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script> 
+	<!-- js -->
+    <script defer src="js/common.js"></script>
+	<script defer src="js/main.js"></script>
 </head>
 
 <body>
@@ -26,53 +23,10 @@
 	<div id="progress">
 		<span id="progress-value"></span>
 	</div>
-	<!--// Scroll Circle -->
-	
-	<!-- H-Commnent -->
-	<div class="h-comment">
-
-		<!-- Swiper -->
-		<div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <!-- Comment01 -->
-                <div class="swiper-slide">
-					There are many variations of<br>
-					passages of Lorem Ipsum<br>
-					available, but the majority have<br>
-					suffered alteration in some form,<br>
-					- Winston Churchill
-                </div>
-				<!-- Comment02 -->
-                <div class="swiper-slide">
-					There are many variations of<br>
-					passages of Lorem Ipsum<br>
-					available, but the majority have<br>
-					suffered alteration in some form,<br>
-					- Winston Churchill
-                </div>
-				<!-- Comment03 -->
-				<div class="swiper-slide">
-					There are many variations of<br>
-					passages of Lorem Ipsum<br>
-					available, but the majority have<br>
-					suffered alteration in some form,
-					- Winston Churchill
-				</div>
-            </div>
-        </div>
-		<!--// swiper -->
-	</div>
-	<!--// H-Commnent -->
-	
-	<!-- All Menu Btn -->
-	<a href="javascript:;" title="" class="all-menu-btn">
-		<span></span>
-		<span></span>
-	</a>
-	<!--// All Memu Btn -->
+	<!--// Scroll Circle -->	
 
 	<!-- All Menu -->
-	<div class="all-menu m2">
+	<div class="all-menu">
 		<ul class="menu-list">
 			<li class="menu-item">
 				<a href="#" title="" class="menu-link">home</a>
@@ -88,10 +42,50 @@
 			</li>
 		</ul>
 	</div>
+	<!-- All Menu Btn -->
+	<a href="javascript:;" title="" class="all-menu-btn">
+		<span></span>
+		<span></span>
+	</a>
+	<!--// All Memu Btn -->
 	<!--// All Menu -->
 
 	<!-- Header -->
 	<header>
+		<!-- H-Commnent -->
+		<div class="h-comment">
+			<div class="swiper mySwiper swiper-container">
+				<div class="swiper-wrapper">
+					<!-- comment01 -->
+					<div class="swiper-slide">
+						There are many variations of<br>
+						passages of Lorem Ipsum<br>
+						available, but the majority have<br>
+						suffered alteration in some form,<br>
+						- Winston Churchill
+					</div>
+					<!-- comment02 -->
+					<div class="swiper-slide">
+						There are many variations of<br>
+						passages of Lorem Ipsum<br>
+						available, but the majority have<br>
+						suffered alteration in some form,<br>
+						- Winston Churchill
+					</div>
+					<!-- comment03 -->
+					<div class="swiper-slide">
+						There are many variations of<br>
+						passages of Lorem Ipsum<br>
+						available, but the majority have<br>
+						suffered alteration in some form,<br>
+						- Winston Churchill
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--// H-Commnent -->
+
+		<!-- Nav -->
 		<nav>
 			<ul>
 				<li><a href="#">STUDIO</a></li>
@@ -103,78 +97,59 @@
 				<li><a href="#">STORE</a></li>
 			</ul>
 		</nav>
+		<!--// Nav -->
 	</header>
 	<!--// Header -->
 
 	<!-- Main Visual -->
-	<div class="collection">
-		<!-- Wrap -->
-		<div class="wrap" >
-			<!-- Cont Box -->
-			<div class="cont-box">
-				<!-- Text Box -->
-				<div class="textbox">
-					<p class="title">Espoir</p>
-					<p class="desc">Be more as you are</p>
-				</div>
-				<!--// Text Box -->
+	<div class="main-visual">
+		<div class="container-fix">
 
-				<!-- Swiper -->
-				<div class="main-visual swiper-container">
-					<ul class="swiper-wrapper">
-						<li class="swiper-slide slide01">
-							<a href="#">
-								<img src="images/main-visual01.jpg" alt="메인비쥬얼01">
-							</a>
-						</li>
-						<li class="swiper-slide slide02">
-							<a href="#">
-								<img src="images/main-visual02.jpg" alt="메인비쥬얼02">
-							</a>
-						</li>
-						<li class="swiper-slide slide03">
-							<a href="#">
-								<img src="images/main-visual03.jpg" alt="메인비쥬얼03">
-							</a>
-						</li>
-						<li class="swiper-slide slide04">
-							<a href="#">
-								<img src="images/main-visual04.jpg" alt="메인비쥬얼04">
-							</a>
-						</li>
-						<li class="swiper-slide slide05">
-							<a href="#">
-								<img src="images/main-visual05.jpg" alt="메인비쥬얼05">
-							</a>
-						</li>
-						<li class="swiper-slide slide06">
-							<a href="#">
-								<img src="images/main-visual06.jpg" alt="메인비쥬얼06">
-							</a>
-						</li>
-						<li class="swiper-slide slide07">
-							<a href="#">
-								<img src="images/main-visual07.jpg" alt="메인비쥬얼07">
-							</a>
-						</li>
-						<li class="swiper-slide slide08">
-							<a href="#">
-								<img src="images/main-visual08.jpg" alt="메인비쥬얼08">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<!--// Swiper -->
+			<div class="swiper-container">
+				<ul class="swiper-wrapper">
+					<li class="swiper-slide slide01">
+						<a href="#">
+							<img src="images/main-visual01.jpg" alt="메인비쥬얼01">
+						</a>
+					</li>
+					<li class="swiper-slide slide02">
+						<a href="#">
+							<img src="images/main-visual02.jpg" alt="메인비쥬얼02">
+						</a>
+					</li>
+					<li class="swiper-slide slide03">
+						<a href="#">
+							<img src="images/main-visual03.jpg" alt="메인비쥬얼03">
+						</a>
+					</li>
+					<li class="swiper-slide slide04">
+						<a href="#">
+							<img src="images/main-visual04.jpg" alt="메인비쥬얼04">
+						</a>
+					</li>
+					<li class="swiper-slide slide05">
+						<a href="#">
+							<img src="images/main-visual05.jpg" alt="메인비쥬얼05">
+						</a>
+					</li>
+					<li class="swiper-slide slide06">
+						<a href="#">
+							<img src="images/main-visual06.jpg" alt="메인비쥬얼06">
+						</a>
+					</li>
+					<li class="swiper-slide slide07">
+						<a href="#">
+							<img src="images/main-visual07.jpg" alt="메인비쥬얼07">
+						</a>
+					</li>
+				</ul>
 			</div>
-			<!--// Cont Box -->
-		</div>
-		<!--// Wrap -->
-	</div>
+		</div>	
+	</div>	
 	<!---// Main Visual -->
 
 	<!-- Promotion -->
 	<div class="promotion">
-		<!-- Container-Fix -->
 		<div class="container-fix">
 			<div class="text-box">
 				<span>P</span>
@@ -189,19 +164,13 @@
 			</div>
 			<div class="img-wrap">
 				<div class="slider-thumb"></div>		
-				<!-- Hover Info -->	
 				<div class="hoverme">
 					<div class="pop"></div> 
-				</div>
-				<!--// Hover Info -->	
-
+				</div>	
 				<div class="slider-thumb"></div>
-
-				<!-- Hover Info -->	
 				<div class="hoverme">
 					<div class="pop"></div> 
-				</div>
-				<!--// Hover Info -->	
+				</div>	
 			</div>
 			<div class="text-box bottom">
 				<span>P</span>
@@ -215,7 +184,6 @@
 				<span>R</span>
 			</div>
 		</div>
-		<!--// Container-Fix -->
 	</div>
 	<!--// Promotion -->
 
@@ -223,7 +191,7 @@
 	<div class="experences">
 		<!-- Container-Fix -->
 		<div class="container-fix">
-			<h1>SHOP BY CATEGORY</h1>
+			<h2 class="main-title">SHOP BY CATEGORY</h2>
 			<p>Products that give you options but never cover you up, turn you into someone else,<br>
 			or over-complicate your routine. Because beauty should make you feel good.</p>
 
@@ -256,15 +224,13 @@
 
 	<!-- Live -->
 	<div class="live-wrap">
-		<!-- Container-fix -->
 		<div class="container-fix">
-				
-			<!-- Swiper -->
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
+					<!-- Slide01 -->
 					<div class="swiper-slide">
 						<div class="text-box">
-							<h2>LIVE & MORE</h2>
+							<h2 class="main-title">LIVE & MORE</h2>
 							<p>
 								Contrary to popular belief, Lorem Ipsum is not<br>
 								simply random text. It has roots in a piece of<br>
@@ -276,6 +242,7 @@
 							<img src="images/live-img03.jpg" alt="메인 라이브 이미지02">
 						</div>
 					</div>
+					<!-- Slide02 -->
 					<div class="swiper-slide">
 						<div class="text-box">
 							<h2>LIVE & MORE</h2>
@@ -290,6 +257,7 @@
 							<img src="images/live-img03.jpg" alt="메인 라이브 이미지02">
 						</div>
 					</div>	
+					<!-- Slide03 -->
 					<div class="swiper-slide">
 						<div class="text-box">
 							<h2>LIVE & MORE</h2>
@@ -305,25 +273,23 @@
 						</div>
 					</div>	
 				</div>
-				<div class="swiper-pagination"></div>
+				<div class="swiper-pagination">1</div>
 			</div>
 		</div>
-		<!--// Container-fix -->
 	</div>
 	<!--// Live -->
 
 	<!-- Best Seller-->
 	<div class="best-seller">
-		<!-- Container-fix -->
 		<div class="container-fix">
-			<h2>WEEKLY BEST ITEM</h2>
+			<h2 class="main-title">WEEKLY BEST ITEM</h2>
 			<!-- Slider -->
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
+					<!-- Item01 -->
 					<div class="swiper-slide">
 						<div class="lank">1</div>
 						<img src="images/best-item01.gif" alt="메인 베스트 립 아이템 01">
-						<!-- Info -->
 						<div class="info">
 							<div class="price">
 								<span class="discount">60%</span>
@@ -334,15 +300,12 @@
 								<span class="grade-num">평점 4.8</span>
 								<span class="review-num">리뷰 1,806</span>
 							</div>
-							
 						</div>
-						<!--// Info -->
 					</div>
-	
+					<!-- Item02 -->
 					<div class="swiper-slide">
 						<div class="lank">2</div>
-						<img src="images/best-item02.png" alt="메인 베스트 립 아이템 01">
-						<!-- Info -->
+						<img src="images/best-item02.png" alt="메인 베스트 립 아이템 02">
 						<div class="info">
 							<div class="price">
 								<span class="discount">60%</span>
@@ -354,13 +317,11 @@
 								<span class="review-num">리뷰 1,806</span>
 							</div>
 						</div>
-						<!--// Info -->
 					</div>
-	
+					<!-- Item03 -->
 					<div class="swiper-slide">
 						<div class="lank">3</div>
-						<img src="images/best-item03.png" alt="메인 베스트 립 아이템 01">
-						<!-- Info -->
+						<img src="images/best-item03.png" alt="메인 베스트 립 아이템 03">
 						<div class="info">
 							<div class="price">
 								<span class="discount">60%</span>
@@ -372,13 +333,11 @@
 								<span class="review-num">리뷰 1,806</span>
 							</div>
 						</div>
-						<!--// Info -->
 					</div>
-	
+					<!-- Item04 -->
 					<div class="swiper-slide">
 						<div class="lank">4</div>
-						<img src="images/best-item04.png" alt="메인 베스트 립 아이템 01">
-						<!-- Info -->
+						<img src="images/best-item04.png" alt="메인 베스트 립 아이템 04">
 						<div class="info">
 							<div class="price">
 								<span class="discount">60%</span>
@@ -390,13 +349,11 @@
 								<span class="review-num">리뷰 1,806</span>
 							</div>
 						</div>
-						<!--// Info -->
 					</div>
-	
+					<!-- Item05 -->
 					<div class="swiper-slide">
 						<div class="lank">5</div>
-						<img src="images/best-item05.png" alt="메인 베스트 립 아이템 01">
-						<!-- Info -->
+						<img src="images/best-item05.png" alt="메인 베스트 립 아이템 05">
 						<div class="info">
 							<div class="price">
 								<span class="discount">60%</span>
@@ -408,28 +365,21 @@
 								<span class="review-num">리뷰 1,806</span>
 							</div>
 						</div>
-						<!--// Info -->
 					</div>
 				</div>
-	
-				<!-- pagination -->
-				<div class="swiper-pagination"></div>
-	
 				<!-- navigation buttons -->
 				<div class="swiper-button-prev"></div>
 				<div class="swiper-button-next"></div>
 			</div>
 			<!--// Slider -->
 		</div>
-		<!--// Container-fix -->
 	</div>
 	<!--// Best Seller-->
 
 	<!-- Best Review -->
 	<div class="best-review">
-		<!-- Container-fix -->
 		<div class="container-fix">
-			<h2>BEST REVIEW</h2>
+			<h2 class="main-title">BEST REVIEW</h2>
 			<div class="container">
 				<ul class="tab-title">
 					<li class="on"># INSTAGRAM </li>
@@ -446,6 +396,8 @@
 							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일06"></li>
 							<li><img src="images/thum01.jpg" alt="메인 베스트 리뷰 썸네일07"></li>
 							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일08"></li>
+							<li><img src="images/thum01.jpg" alt="메인 베스트 리뷰 썸네일09"></li>
+							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일10"></li>
 						</ul>
 					</div>
 					<div class="review">
@@ -458,36 +410,28 @@
 							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일06"></li>
 							<li><img src="images/thum01.jpg" alt="메인 베스트 리뷰 썸네일07"></li>
 							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일08"></li>
+							<li><img src="images/thum01.jpg" alt="메인 베스트 리뷰 썸네일09"></li>
+							<li><img src="images/thum02.png" alt="메인 베스트 리뷰 썸네일10"></li>
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--// Container-fix -->
 	</div>
 	<!--// Best Review -->
 
-
 	<!-- Footer -->
-	<footer class="common-footer">
-		<!-- Footer-Inner -->
+	<footer>
 		<div class="footer-inner">
-			<!-- Logo -->
 			<div class="logo">
 				Espoir
 			</div>
-			<!--// Logo -->
-
-			<!-- util-menu -->
 			<div class="right">
-
 				<ul class="util-menu">
 					<li><a href="">서비스 이용약관</a></li>
 					<li><a href="">개인정보처리방침</a></li>
 					<li><a href="">공정거래</a></li>
 				</ul>
-
-				<!-- Info -->
 				<div class="info">
 					<ul>
 						<li><a>(주)에스쁘아</a></li>
@@ -495,132 +439,17 @@
 						<li><a>사업자등록번호: 104-86-58598</a></li>
 						<li><a>통신판매업신고번호:  제 2017-서울용산-1293호</a></li>
 					</ul>
-
 					<ul>
 						<li><a>이메일: espoirmall@espoir.com</a></li>
 						<li><a>주소: 서울특별시 용산구 한강대로 100 (한강로2가) 6층</a></li>
 					</ul>
-
 					<ul>
 						<li>Copyright ⓒ 2022 espoir. All Rights Reserved.</li>
 					</ul>
-
 				</div>
-				<!--// Info -->
 			</div>
-			<!--// Right -->
 		</div>
-		<!--// Footer-Inner -->
 	</footer>
 	<!--//Footer -->
-
-	<!-- comment slider -->
-	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-	<script>
-	var swiper = new Swiper(".h-comment>.mySwiper", {
-		autoplay : {  //자동 슬라이드 설정
-		delay : 5000, // 시간 설정
-		disableOnInteraction : false,  // false로 설정하면 스와이프 후 자동 재생이 비활성화 되지 않음
-		},
-	});
-	</script>
-	
-	<!-- all menu -->
-	<script>
-		document.querySelector('.all-menu-btn').onclick = function (e) {
-			var menu = document.querySelector('.all-menu');
-			var btn = document.querySelector('.all-menu-btn');
-	
-			menu.classList.toggle('is-active');
-			btn.classList.toggle('is-active');
-	
-			e.preventDefault();
-		}
-	</script>
-	
-	<!-- Main Visual Slider -->
-	<script>		
-        var swiper = new Swiper('.collection .swiper-container', {
-            slidesPerView: 'auto',
-            mousewheel: true,
-			freeMode: true,
-			slidesOffsetAfter: 400,
-			infinite: true,
-        });
-	</script>
-
-	<!-- Product Slider -->
-	<script>
-        $(document).ready(function() {
-        var $swiper = $(".product-slider>.swiper-container");
-        var $bottomSlide = null;
-        var $bottomSlideContent = null; 
-        var mySwiper = new Swiper(".product-slider .swiper-container", {
-            autoplay: {
-            delay: 1000,
-            disableOnInteraction: false
-            }, 
-            spaceBetween: 1,
-            slidesPerView: 5,
-            centeredSlides: true,
-            roundLengths: true,
-            loop: true,
-            navigation: {
-            nextEl: ".swiper-button-next1",
-            prevEl: ".swiper-button-prev1"
-            }
-        });
-        });
-    </script>
-
-	<!-- Best Item Slider -->
-	<script>
-		var mySwiper = new Swiper ('.best-seller .swiper-container', {
-			slidesPerView: '5',
-			spaceBetween: 30,
-			loop: true,
-			pagination: {
-			el: '.swiper-pagination',
-			},
-			navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-			},	
-		})
-	</script>
-	
-	<!-- Tab Menu -->
-	<script>
-		$(document).ready(function() {
-			$(".tab-title li").click(function() {
-				var idx = $(this).index();
-				$(".tab-title li").removeClass("on");
-				$(".tab-title li").eq(idx).addClass("on");
-				$(".tab-cont > div").hide();
-				$(".tab-cont > div").eq(idx).show();
-			})
-		});
-	</script>
-
-	<!-- Live Slider -->
-	<script>
-		var swiper = new Swiper(".live-wrap .mySwiper", {
-			autoplay: {
-            delay: 2000,
-            disableOnInteraction: false
-            }, 
-			pagination: {
-			spaceBetween: 1,
-			slidesPerView: 2,
-			el: ".swiper-pagination",
-			type: "progressbar",
-		},
-		navigation: {
-			nextEl: ".swiper-button-next",
-			prevEl: ".swiper-button-prev",
-		},
-		});
-	</script>
-
 </body>
 </html>

@@ -1,4 +1,15 @@
-/* scroll percentage with circle progress bar */
+// All Menu
+document.querySelector('.all-menu-btn').onclick = function (e) {
+    var menu = document.querySelector('.all-menu');
+    var btn = document.querySelector('.all-menu-btn');
+
+    menu.classList.toggle('is-active');
+    btn.classList.toggle('is-active');
+
+    e.preventDefault();
+}
+
+//Scroll Percentage with Circle Progress bar
 
 let scrollPercentage = () => {
     let scrollProgress = document.getElementById("progress");
@@ -11,3 +22,15 @@ let scrollPercentage = () => {
 }
 window.onscroll = scrollPercentage;
 window.onload = scrollPercentage;
+
+//Tab Menu
+
+$(document).ready(function() {
+    $(".tab-title li").click(function() {
+        var idx = $(this).index();
+        $(".tab-title li").removeClass("on");
+        $(".tab-title li").eq(idx).addClass("on");
+        $(".tab-cont > div").hide();
+        $(".tab-cont > div").eq(idx).show();
+    })
+});
