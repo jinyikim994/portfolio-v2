@@ -217,6 +217,7 @@
         font-size: 1.5429vw;
     }
 
+
     .main-slide .right-text{
         font-size: 3.4286vw;
     }
@@ -258,11 +259,6 @@
         font-size: 7vw;
     }
 
-    .main-slide .project-btn .project-circle {
-        width: 18vw;
-        height: 18vw;
-    }
-
     .main-slide .project-btn {
         display: none;
     }
@@ -270,4 +266,9 @@
     .main-slide .slick-prev,.main-slide .slick-next {
         display: none !important;
     }
+
+    @keyframes slick-circle{
+        0%{left:0;}
+        100%{left:93%;}
+    }  
 }
