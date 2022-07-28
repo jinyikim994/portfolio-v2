@@ -92,16 +92,19 @@ footer .info ul li a {
 
     footer .info ul {
         flex-direction: column;
-        font-size: 2vw;
+    }
+
+    footer .info ul li {
+        font-size: 3.5vw;
     }
 
     footer .util-menu li a {
-        font-size: 2.8vw;
+        font-size: 3.3vw;
     }
 
-    footer .info ul li a {
-        font-size: 2.5vw;
+    footer .util-menu li:not(:last-of-type)::after {
+        top: 4px;
     }
-    
+
 }
 

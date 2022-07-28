@@ -118,4 +118,9 @@
     .all-menu .menu-link {
         font-size: 10vw;
     }
+
+    .all-menu-btn {
+        right: 15px;
+    }
+
 }
