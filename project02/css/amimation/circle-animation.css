@@ -36,6 +36,8 @@
     #progress {
         width: 20vw;
         height: 20vw;
+        right: 15px;
+        bottom: 14px;
     }
 
 }

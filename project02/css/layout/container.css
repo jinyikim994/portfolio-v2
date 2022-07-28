@@ -15,6 +15,7 @@
 @media (max-width:1570px){ 
     
     .container-fix {
+        width: 80%;
         padding: 60px 0;
     }
 
