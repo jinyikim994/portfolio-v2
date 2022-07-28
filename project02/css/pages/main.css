@@ -1,5 +1,4 @@
 /* common */
-
 .main-title {
     text-align: center;
     font-size: 3vw;
@@ -12,12 +11,7 @@
     color: #988D8B;
 }
 
-.live-wrap .desc {
-    text-align: left;
-}
-
 /* H-Comment */
-
 .h-comment {
     width: 16vw;
     padding: 30px;
@@ -234,7 +228,7 @@
     color: #E2766A;
 }
 
-.promotion .hoverme {
+.promotion .hover-me {
     width: 3vw;
     height: 3vw;
     position: relative;
@@ -250,7 +244,7 @@
     cursor: pointer;
 }
 
-.promotion .hoverme p {
+.promotion .hover-me p {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -261,17 +255,17 @@
     text-align: right;
 }
 
-.promotion .hoverme:hover {
+.promotion .hover-me:hover {
     background: #C7E1DA;
 }
 
-.promotion .hoverme:hover > .pop {
+.promotion .hover-me:hover > .pop {
     opacity: 1;
     width: 9vw;
     height: 9vw;
 }
 
-.promotion .hoverme .pop {
+.promotion .hover-me .pop {
     opacity: 0;
     width: 0;
     height: 0;
@@ -285,7 +279,7 @@
     background-size: cover;
 }
 
-.promotion .hoverme .pop > p {
+.promotion .hover-me .pop > p {
     color: #353535;
     font-size: 20px;
 }
@@ -324,7 +318,6 @@
 }
 
 /* Live */
-
 .live-wrap .text-box {
     width: 25%;
 }
@@ -338,6 +331,10 @@
 
 .live-wrap .img-wrap img {
     width: 48%;
+}
+
+.live-wrap .desc {
+    text-align: left;
 }
 
 .live-wrap .img-wrap img:last-child {
@@ -562,14 +559,6 @@
 
 @media (max-width:1570px){
 
-    nav {
-        display: none;
-    }
-    
-    header {
-        padding: 30px 15px;
-    }
-
     .h-comment {
         display: none;
     }
@@ -587,24 +576,25 @@
 
 }
 
-/* 모바일 */
+/* MOBILE */
 @media screen and (max-width: 991px) {
 
-    /* common */
+    /* Common */
     .main-title {
         font-size: 8vw !important;
     }
 
     .desc {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
+    /* Promotion */
     .promotion span {
         font-size: 14vw;
     }
 
 
-    .promotion .hoverme {
+    .promotion .hover-me {
         width: 6vw;
         height: 6vw;
         left: 0;
@@ -613,6 +603,12 @@
         background-position: center;
     }
 
+    /* Experences */
+    .experences h1 {
+        font-size: 4vw;
+    }
+
+    /* Live */
     .live-wrap .swiper-slide {
         flex-direction: column;
     }
@@ -626,19 +622,16 @@
         padding-top: 20px;
     }
 
+    .live-wrap .text-box h2 {
+        font-size: 4vw;
+    }
+
+    /*Best seller */
     .best-seller .lank {
         width: 4.8vw;
         height: 4.8vw;
         line-height: 4.8vw;
         font-size: 3vw;
-    }
-
-    .experences h1 {
-        font-size: 4vw;
-    }
-
-    .live-wrap .text-box h2 {
-        font-size: 4vw;
     }
 
     .best-review .tab-title li {
@@ -661,6 +654,5 @@
     .best-seller .info .title {
         font-size: 2.7vw;
     }
-
 
 }

@@ -23,6 +23,7 @@
 
 /* 모바일 */
 @media screen and (max-width: 991px) {
+    
     .container-fix {
         width: 90%;
     }

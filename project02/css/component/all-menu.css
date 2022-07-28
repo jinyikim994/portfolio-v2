@@ -103,3 +103,19 @@
 .all-menu .menu-link:hover:after {
     width: 100%;
 }
+
+/************** 반응형 **************/
+
+/* PC */
+
+@media (max-width:1570px){
+
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 991px) {
+    .all-menu .menu-link {
+        font-size: 10vw;
+    }
+}
