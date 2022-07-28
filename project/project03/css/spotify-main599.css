@@ -5,6 +5,10 @@
     
     /*slider*/
 
+    .slider.single-item img{width:100%; height: 500px; }
+    .sliderContainer {height: auto;}
+    .slick-slide { padding: 0;}
+
     #slider {
         width: 100%;
         height: 850px;

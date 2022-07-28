@@ -67,7 +67,7 @@
     /*top banner*/
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
    .scroll.text1{ font-family: 'Poppins', sans-serif; color:#fff; display:flex; position: absolute; top:0; left:0; z-index: 99; width:100%; border-bottom:1px solid #fff; overflow: hidden; }
-   .scroll.text1 div{font-size:2em; white-space: nowrap; text-transform: uppercase;  animation: animate 20s linear infinite; padding:5px;}
+   .scroll.text1 div{font-size:1.5em; white-space: nowrap; text-transform: uppercase;  animation: animate 20s linear infinite; padding:12px;}
    @keyframes animate
    {
         0%
@@ -122,8 +122,9 @@
         padding: 20px;
     }
 
-    header #navbox #logo img {Í
+    header #navbox #logo img {
         height: 70px;
+        
     }
 
     header #hide_nav {
@@ -221,14 +222,6 @@ text-align: center;}
     transform-origin: bottom left;
 
 }
-
-
-
-
-
-
-
-
 
 .main-visual-slider .slick-active .main-visual-item>img{animation: scaleIn 10s linear both}
 .main-visual-slider .slick-active h3{animation: slideIn 1.2s 1s ease both}
