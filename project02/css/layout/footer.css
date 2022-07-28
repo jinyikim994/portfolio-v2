@@ -67,9 +67,9 @@ footer .info ul {
     margin: 0;
 }
 
-footer .info ul li a {
+footer .info ul li {
     padding-right: 13px;
-    font-size: 0.8vw;
+    font-size: 1vw;
 }
 
 
@@ -95,11 +95,11 @@ footer .info ul li a {
     }
 
     footer .info ul li {
-        font-size: 3.5vw;
+        font-size: 2.5vw;
     }
 
     footer .util-menu li a {
-        font-size: 3.3vw;
+        font-size: 2.7vw;
     }
 
     footer .util-menu li:not(:last-of-type)::after {

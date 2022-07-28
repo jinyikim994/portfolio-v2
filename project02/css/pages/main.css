@@ -585,7 +585,7 @@
     }
 
     .desc {
-        font-size: 2.5vw;
+        font-size: 3.3vw;
     }
 
     /* Promotion */
@@ -601,6 +601,10 @@
         top: 10px;
         background-size: cover;
         background-position: center;
+    }
+
+    .promotion .hover-me:hover > .pop {
+        display: none;
     }
 
     /* Experences */
@@ -620,10 +624,13 @@
     .live-wrap .img-wrap {
         width: 100%;
         padding-top: 20px;
+        display: flex;
+        flex-direction: column;
     }
 
-    .live-wrap .text-box h2 {
-        font-size: 4vw;
+    .live-wrap .img-wrap img {
+        width: 100%;
+        margin-top: 30px;
     }
 
     /*Best seller */
