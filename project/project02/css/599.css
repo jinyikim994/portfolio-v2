@@ -156,7 +156,7 @@
 
     #section02 > .topbar > .wrap li a {
         color: #d2c8b6;
-        padding: 20px 20px;
+        padding: 10px 4px;
         text-decoration: none;
         font-size: 13px;
         font-weight: 10;
@@ -321,8 +321,8 @@
     }
 
     #section02 > .identification > .imgbox {
-        width: 80%;
-        height: 583px;
+        width: 90%;
+        height: 390px;
         background-color: antiquewhite;
         margin-top: 40px;
         margin-bottom: 70px;
@@ -343,7 +343,7 @@
     }
 
     #section03 .wrap {
-        width: 80%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -406,7 +406,7 @@
 
     #section03 > .wrap > .imgbox {
         width: 100%;
-        height: 583px;
+        height: 390px;
         margin-bottom: 70px;
         background-image: url('../img/test.jpg');
         background-size:cover;
