@@ -50,6 +50,31 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    position: relative;
+}
+
+.main-visual .logo {
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    transform: rotate(-90deg);
+}
+
+.main-visual .logo a{
+    color: #E2766A;
+    font-size: 120px;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto',serif;
+    font-weight: 600;
+}
+
+.main-visual .logo p{
+    color: #121212;
+    opacity: 0.6;
+    position: absolute;
+    bottom: -18px;
+    left: -1px;
+    font-size: 19px;
 }
 
 .main-slider-wrap{
@@ -599,6 +624,25 @@
 
     .desc {
         font-size: 3.3vw;
+    }
+
+    /* Main Visual */
+    .main-visual .logo {
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        transform: rotate(-90deg);
+    }
+    
+    .main-visual .logo a{
+        font-size: 60px;
+    }
+    
+    .main-visual .logo p{
+        position: absolute;
+        bottom: -15px;
+        left: -1px;
+        font-size: 13px;
     }
 
     /* Promotion */
