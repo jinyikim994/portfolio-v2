@@ -103,8 +103,8 @@ footer .info ul li {
     }
 
     footer .util-menu li:not(:last-of-type)::after {
-        top: 2px;
-        font-size: 13px;
+        top: 3px;
+        font-size: 11px;
     }
 
 }

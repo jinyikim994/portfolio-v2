@@ -671,6 +671,10 @@
         width: 100%;
     }
 
+    .main-visual .main-slider-track li:first-of-type {
+        margin-left: 100px;
+    }
+
 
     /* Promotion */
     .promotion span {
