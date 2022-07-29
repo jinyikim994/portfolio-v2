@@ -55,25 +55,25 @@
 
 .main-visual .logo {
     position: absolute;
-    top: 35%;
+    top: 27%;
     left: 2%;
     transform: rotate(-90deg);
 }
 
 .main-visual .logo a{
     color: #E2766A;
-    font-size: 120px;
+    font-size: 145px;
     letter-spacing: 0.04em;
-    font-family: 'Roboto',serif;
-    font-weight: 600;
+    font-family: 'Ramaraja', sans-serif;
+    font-weight: 400;
 }
 
 .main-visual .logo p{
     color: #121212;
     opacity: 0.6;
     position: absolute;
-    bottom: -18px;
-    left: -1px;
+    bottom: 43px;
+    left: 2px;
     font-size: 19px;
 }
 
@@ -634,18 +634,19 @@
     .main-visual .logo {
         position: absolute;
         top: 35%;
-        left: -3%;
+        left: -6%;
         transform: rotate(-90deg);
     }
     
     .main-visual .logo a{
         font-size: 60px;
-        font-family: 'Roboto',serif;
+        font-weight: 400;
+        font-family: 'Ramaraja', sans-serif;
     }
     
     .main-visual .logo p{
         position: absolute;
-        bottom: -15px;
+        bottom: 11px;
         left: -1px;
         font-size: 13px;
     }
@@ -729,20 +730,6 @@
         font-size: 3vw;
     }
 
-    /*Best Review */
-
-    .best-review .tab-title li {
-        font-size: 4vw;
-    }
-
-    .best-review .tab-cont ul li {
-        width: 90%;
-    }
-
-    .best-review .tab-cont ul li img {
-        width: 100%;
-    }
-
     .best-seller .info .grade {
         color: #988D8B;
         font-size: 3vw;
@@ -760,4 +747,19 @@
         font-size: 2.7vw;
     }
 
+    /*Best Review */
+
+    .best-review .tab-title li {
+        font-size: 4vw;
+    }
+
+    .best-review .tab-cont ul li {
+        width: 90%;
+    }
+
+    .best-review .tab-cont ul li img {
+        width: 100%;
+        height: auto;
+    }
+    
 }
