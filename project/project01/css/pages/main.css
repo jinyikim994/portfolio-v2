@@ -647,12 +647,21 @@
     }
 
     .main-visual .slide01{
-        width: 300px;
+        width: 500px;
     }
 
     .main-visual .slide02{
         width: 600px;
     }
+
+    .main-visual .slide03{
+        width: 700px;
+    }
+
+    .main-visual .slide04{
+        width: 500px;
+    }
+
 
     .main-visual .main-slider-track img {
         width: 100%;
