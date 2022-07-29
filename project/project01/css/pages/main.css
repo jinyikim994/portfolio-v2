@@ -630,12 +630,13 @@
     .main-visual .logo {
         position: absolute;
         top: 35%;
-        left: 2%;
+        left: -3%;
         transform: rotate(-90deg);
     }
     
     .main-visual .logo a{
         font-size: 60px;
+        font-family: 'Roboto',serif;
     }
     
     .main-visual .logo p{
@@ -644,6 +645,19 @@
         left: -1px;
         font-size: 13px;
     }
+
+    .main-visual .slide01{
+        width: 300px;
+    }
+
+    .main-visual .slide02{
+        width: 600px;
+    }
+
+    .main-visual .main-slider-track img {
+        width: 100%;
+    }
+
 
     /* Promotion */
     .promotion span {
@@ -698,8 +712,18 @@
         font-size: 3vw;
     }
 
+    /*Best Review */
+
     .best-review .tab-title li {
         font-size: 4vw;
+    }
+
+    .best-review .tab-cont ul li {
+        width: 90%;
+    }
+
+    .best-review .tab-cont ul li img {
+        width: 100%;
     }
 
     .best-seller .info .grade {
