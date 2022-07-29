@@ -395,6 +395,10 @@
     flex-direction: column;
 }
 
+.live-wrap .swiper-container-horizontal > .swiper-pagination-progressbar {
+    height: 2px;
+}
+
 .live-wrap .text-box h2 {
     font-size: 3vw;
     line-height: 1.1;
@@ -655,7 +659,7 @@
     }
 
     .main-visual .slide03{
-        width: 700px;
+        width: 600px;
     }
 
     .main-visual .slide04{
