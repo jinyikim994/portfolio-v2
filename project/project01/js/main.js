@@ -14,15 +14,15 @@ var standard = document.querySelector(".main-visual");
 var container = document.querySelector(".main-slider-track");
 
 gsap.to(container, {
-    x: -(container.offsetWidth - innerWidth), // container의 가로값에서 뷰포트 가로값을 뺀 만큼 X축 음수 스크롤
-    ease: "none", // ease 효과 제거
-    scrollTrigger: {
-    trigger: standard, // 대상
-    start: "top top", // 시작점 설정, trigger 상단이 뷰포트 상단에 닿을때 시작
-    invalidateOnRefresh: true, // 화면 리사이즈될 때 실행
-    pin: true, // 화면 고정
-    scrub: true, // 부드러운 스크러빙 설정
-    end: "+=" + container.offsetWidth, // 컨테이너의 가로값만큼 스크롤이 되면 종료
+        x: () => -(container.offsetWidth - innerWidth) , // container의 가로값에서 뷰포트 가로값을 뺀 만큼 X축 음수 스크롤
+        ease: "none", // ease 효과 제거
+        scrollTrigger: {
+        trigger: standard, // 대상
+        start: "top top", // 시작점 설정, trigger 상단이 뷰포트 상단에 닿을때 시작
+        invalidateOnRefresh: true, // 화면 리사이즈될 때 실행
+        pin: true, // 화면 고정
+        scrub: true, // 부드러운 스크러빙 설정
+        end: () => "+=" + (container.offsetWidth - innerWidth), // 컨테이너의 가로값에서 뷰포트 가로값을 뺀 만큼 스크롤이 되면 종료
     },
 })
 
