@@ -11,6 +11,10 @@
     color: #988D8B;
 }
 
+.m-logo {
+    display: none;
+}
+
 /* H-Comment */
 .h-comment {
     max-width: 265px;
@@ -626,10 +630,23 @@
         font-size: 3.3vw;
     }
 
+    .m-logo {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 23px;
+        z-index: 50;
+        font-size: 40px;
+        font-family: 'Ramaraja', sans-serif;
+        color:#E2766A;
+        font-weight: 400;
+    } 
+
     .h-comment {
         min-width: 165px;
         padding: 18px;
         font-size: 14px;
+        display: none;
     }
 
     .h-comment .swiper {
