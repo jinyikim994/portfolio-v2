@@ -630,11 +630,7 @@
         font-size: 3.3vw;
     }
 
-    .h-comment {
-        width: 170px;
-        padding: 15px;
-        display: none;
-    }
+   
 
     .h-comment::before {
         content: "“";
