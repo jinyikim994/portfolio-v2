@@ -629,6 +629,7 @@
     .h-comment {
         min-width: 165px;
         padding: 18px;
+        font-size: 14px;
     }
 
     .h-comment .swiper {
