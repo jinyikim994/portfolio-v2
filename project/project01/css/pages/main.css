@@ -601,10 +601,6 @@
 
 @media (max-width:1570px){
 
-    .h-comment {
-        display: none;
-    }
-
     .promotion .slider-thumb {
         background-size: cover;
         width: 40vw;
@@ -630,7 +626,14 @@
         font-size: 3.3vw;
     }
 
-   
+    .h-comment {
+        min-width: 165px;
+        padding: 18px;
+    }
+
+    .h-comment .swiper {
+        width: 100%;
+    }
 
     .h-comment::before {
         content: "“";
