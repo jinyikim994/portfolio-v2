@@ -160,7 +160,7 @@
     border-radius: 20px;
     top: -13.5px; 
     left: 0;
-    background: url('../../images/main/slick-circle.png');
+    background: url('../../images/main/slick-circle.png') center /contain;
     animation-name: slick-circle;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
@@ -169,7 +169,7 @@
 
 @keyframes slick-circle{
     0%{left:0;}
-    100%{left:99%;}
+    100%{left:calc(100% - 26px);}
 }  
 
 /* Main Text Animation */
