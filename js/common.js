@@ -9,7 +9,7 @@ document.querySelector('.all-menu-btn').onclick = function (e) {
 	e.preventDefault();
 }
 
-//tab
+// Tab Menu
 $(document).ready(function(){
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');

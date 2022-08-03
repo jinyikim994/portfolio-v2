@@ -20,24 +20,8 @@ accordionItem.forEach((el) =>
 	})
 );
 
-/* About Image Fade In */
+// About Image Fade In
 $(function() {
 	$('.image-wrap img').each(function(i) {
 	$(this).delay((i++) * 700).fadeTo(2000, 1); })
 });
-
-/* Tab Menu */
-$(document).ready(function(){
-	
-	$('ul.tabs li').click(function(){
-		var tab_id = $(this).attr('data-tab');
-
-		$('ul.tabs li').removeClass('current');
-		$('.tab-content').removeClass('current');
-
-		$(this).addClass('current');
-		$("#"+tab_id).addClass('current');
-		
-	})
-
-})
