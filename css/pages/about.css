@@ -163,7 +163,7 @@
     font-size: 0.8vw;
 }
 
-.about .contact .info  ul li:first-child {
+.about .contact .info  ul li {
     opacity: 0.8;
     font-size: 1vw;
     padding-bottom: 10px;
